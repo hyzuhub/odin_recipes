@@ -3,20 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Acme"
+      rel="stylesheet"
+    />
     <title>Recipes</title>
   </head>
   <body>
-    <h1>Recipes</h1>
-    <ul>
-      <li>
-        <a href="./recipes/shawarma.html">Shawarma</a>
-      </li>
-      <li>
-        <a href="./recipes/grilled-cheese.html">Grilled Cheese</a>
-      </li>
-      <li>
-        <a href="./recipes/chow-mein.html">Beef Chow Mein</a>
-      </li>
-    </ul>
+    <div class="site-body">
+      <h1>Hyz's Recipes</h1>
+      <div class="carousel-container">
+        <div class="cards-body">
+          <div class="wrapper">
+            <div class="card">
+              <img
+                src="https://ssmscdn.yp.ca/image/resize/e9b670b4-a911-4e12-a279-5cb1b870500b_pl-landscape.jpg"
+                alt="Shawarma Picture"
+              />
+              <div class="info">
+                <h2>Chicken Shawarma</h2>
+                <p>
+                  It’s a popular street food that is traditionally made in the
+                  form of spiced meats that are stacked on a vertical rotisserie
+                  with thin slices shaved off as it rotates.
+                </p>
+                <a href="./recipes/shawarma.html" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="card">
+              <img
+                src="https://media.istockphoto.com/id/153724361/photo/grilled-cheese-sandwich.jpg?s=612x612&w=0&k=20&c=NFZT_-hPYdCLyvh5FaMEgC_aVf4mxJvR0JONmTh9cGg="
+                alt="Grilled Cheese Picture"
+              />
+              <div class="info">
+                <h2>Grilled Cheese</h2>
+                <p>
+                  While it comes down to personal taste and convenience / speed,
+                  for me the grilled cheese wins hands down. The bread gets too
+                  squished in toasties and sandwich makers – even the ones that
+                  have a “thick set” option.
+                </p>
+                <a href="./recipes/grilled-cheese.html" class="btn"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="card">
+              <img
+                src="https://media.istockphoto.com/id/483137365/photo/asian-chow-mein-noodles.jpg?s=612x612&w=0&k=20&c=aVkPKpDkiAM7CxTFinQBax0i-nm-ybzWimrJRyPePcg="
+                alt="Chow Mein Picture"
+              />
+              <div class="info">
+                <h2>Beef Chow Mein</h2>
+                <p>
+                  Here’s something new to try with that packet of beef mince you
+                  throw into your shopping cart every week! The beef is stir
+                  fried with chow mein sauce until it’s beautifully caramelised
+                  then tossed in a tangle of noodles and vegetables.
+                </p>
+                <a href="./recipes/chow-mein.html" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
